@@ -47,7 +47,8 @@ for key in keywords:
                 jobs_list.append(Job)
                 print(title)
     
-    # Al cambiar de keyword se guarda la lista de diccionarios en archivo json            
+    # Al cambiar de keyword se guarda la lista de diccionarios en archivo json
+    print('Cantidad de trabajos encontrados: ',jobs_amount)            
     sorted_jobs_list = sorted(jobs_list, key=lambda k: k['Payment'],reverse=True)
     sorted_list = open(f'listas_freelancer/Trabajos en {key}: {date}.txt','w')
     json.dump(sorted_jobs_list, sorted_list)
