@@ -1,5 +1,5 @@
 # scrap-freelancer
-Scripting excercise:  Scrap data from freelance to get a list of the most required skills
+Scripting exercise:  Scrap data from freelance to get a list of the most required skills
 # Tools
 - BeautifulSoup
 # Instalation
